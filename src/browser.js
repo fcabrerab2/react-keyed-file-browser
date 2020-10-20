@@ -112,7 +112,7 @@ class RawFileBrowser extends React.Component {
     showActionBar: true,
     canFilter: true,
     showFoldersOnFilter: false,
-    noFilesMessage: 'No files.',
+    noFilesMessage: 'No hay archivos.',
 
     group: GroupByFolder,
     sort: SortByName,
