@@ -723,7 +723,7 @@ class RawFileBrowser extends React.Component {
             contents = (
               <tr>
                 <td colSpan={100}>
-                  No files matching "{this.state.nameFilter}".
+                  No se encontraron archivos con: "{this.state.nameFilter}".
                 </td>
               </tr>
             )
@@ -748,7 +748,7 @@ class RawFileBrowser extends React.Component {
                       onClick={this.handleShowMoreClick}
                       href="#"
                     >
-                      Show more results
+                      Mostrar más resultados
                     </a>
                   </td>
                 </tr>
@@ -781,9 +781,9 @@ class RawFileBrowser extends React.Component {
       case 'list':
         if (!contents.length) {
           if (this.state.nameFilter) {
-            contents = (<p className="empty">No files matching "{this.state.nameFilter}"</p>)
+            contents = (<p className="empty">No se encontraron archivos con: "{this.state.nameFilter}"</p>)
           } else {
-            contents = (<p className="empty">No files.</p>)
+            contents = (<p className="empty">Sin archivos.</p>)
           }
         } else {
           let more
