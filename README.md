@@ -1,4 +1,4 @@
-# react-keyed-file-browser
+# react-keyed-file-browser (spanish version)
 
 [![Build Status](https://travis-ci.org/uptick/react-keyed-file-browser.svg?branch=master)](https://travis-ci.org/uptick/react-keyed-file-browser)
 [![npm version](https://badge.fury.io/js/react-keyed-file-browser.svg)](http://badge.fury.io/js/react-keyed-file-browser)
