@@ -65,7 +65,7 @@
     debug "^4.1.0"
     gensync "^1.0.0-beta.1"
     json5 "^2.1.2"
-    lodash "^4.17.13"
+    lodash "^4.17.15"
     resolve "^1.3.2"
     semver "^5.4.1"
     source-map "^0.5.0"
@@ -99,7 +99,7 @@
   dependencies:
     "@babel/types" "^7.10.3"
     jsesc "^2.5.1"
-    lodash "^4.17.13"
+    lodash "^4.17.15"
     source-map "^0.5.0"
 
 "@babel/generator@^7.11.0", "@babel/generator@^7.11.4":
@@ -246,7 +246,7 @@
   dependencies:
     "@babel/helper-function-name" "^7.10.3"
     "@babel/types" "^7.10.3"
-    lodash "^4.17.13"
+    lodash "^4.17.15"
 
 "@babel/helper-define-map@^7.10.4":
   version "7.10.5"
@@ -357,7 +357,7 @@
     "@babel/helper-split-export-declaration" "^7.10.1"
     "@babel/template" "^7.10.1"
     "@babel/types" "^7.10.1"
-    lodash "^4.17.13"
+    lodash "^4.17.15"
 
 "@babel/helper-module-transforms@^7.10.4", "@babel/helper-module-transforms@^7.10.5", "@babel/helper-module-transforms@^7.11.0":
   version "7.11.0"
@@ -401,7 +401,7 @@
   resolved "https://registry.yarnpkg.com/@babel/helper-regex/-/helper-regex-7.10.1.tgz#021cf1a7ba99822f993222a001cc3fec83255b96"
   integrity sha512-7isHr19RsIJWWLLFn21ubFt223PjQyg1HY7CZEMRr820HttHPpVvrsIN3bUOo44DEfFV4kBXO7Abbn9KTUZV7g==
   dependencies:
-    lodash "^4.17.13"
+    lodash "^4.17.15"
 
 "@babel/helper-regex@^7.10.4":
   version "7.10.5"
@@ -1008,7 +1008,7 @@
   integrity sha512-8bpWG6TtF5akdhIm/uWTyjHqENpy13Fx8chg7pFH875aNLwX8JxIxqm08gmAT+Whe6AOmaTeLPe7dpLbXt+xUw==
   dependencies:
     "@babel/helper-plugin-utils" "^7.10.1"
-    lodash "^4.17.13"
+    lodash "^4.17.15"
 
 "@babel/plugin-transform-block-scoping@^7.10.4", "@babel/plugin-transform-block-scoping@^7.8.3":
   version "7.11.1"
@@ -1850,7 +1850,7 @@
     "@babel/types" "^7.10.3"
     debug "^4.1.0"
     globals "^11.1.0"
-    lodash "^4.17.13"
+    lodash "^4.17.15"
 
 "@babel/traverse@^7.10.4", "@babel/traverse@^7.11.0":
   version "7.11.0"
@@ -1873,7 +1873,7 @@
   integrity sha512-nZxaJhBXBQ8HVoIcGsf9qWep3Oh3jCENK54V4mRF7qaJabVsAYdbTtmSD8WmAp1R6ytPiu5apMwSXyxB1WlaBA==
   dependencies:
     "@babel/helper-validator-identifier" "^7.10.3"
-    lodash "^4.17.13"
+    lodash "^4.17.15"
     to-fast-properties "^2.0.0"
 
 "@babel/types@^7.10.4", "@babel/types@^7.10.5", "@babel/types@^7.11.0", "@babel/types@^7.9.5":
@@ -6927,7 +6927,7 @@ globule@^1.0.0:
   integrity sha512-7IDTQTIu2xzXkT+6mlluidnWo+BypnbSoEVVQCGfzqnl5Ik8d3e1d4wycb8Rj9tWW+Z39uPWsdlquqiqPCd/pA==
   dependencies:
     glob "~7.1.1"
-    lodash "~4.17.10"
+    lodash "~4.17.15"
     minimatch "~3.0.2"
 
 good-listener@^1.2.2:
@@ -7355,7 +7355,7 @@ inquirer@6.5.0:
     cli-width "^2.0.0"
     external-editor "^3.0.3"
     figures "^2.0.0"
-    lodash "^4.17.12"
+    lodash "^4.17.15"
     mute-stream "0.0.7"
     run-async "^2.2.0"
     rxjs "^6.4.0"
@@ -9831,7 +9831,7 @@ react-color@^2.17.0:
   integrity sha512-X5XpyJS6ncplZs74ak0JJoqPi+33Nzpv5RYWWxn17bslih+X7OlgmfpmGC1fNvdkK7/SGWYf1JJdn7D2n5gSuQ==
   dependencies:
     "@icons/material" "^0.2.4"
-    lodash "^4.17.11"
+    lodash "^4.17.15"
     material-colors "^1.2.1"
     prop-types "^15.5.10"
     reactcss "^1.2.0"
@@ -10108,7 +10108,7 @@ reactcss@^1.2.0:
   resolved "https://registry.yarnpkg.com/reactcss/-/reactcss-1.2.3.tgz#c00013875e557b1cf0dfd9a368a1c3dab3b548dd"
   integrity sha512-KiwVUcFu1RErkI97ywr8nvx8dNOpT03rbnma0SSalTYjkrPYaEajR4a/MRt6DZ46K6arDRbWMNHF+xH7G7n/8A==
   dependencies:
-    lodash "^4.0.1"
+    lodash "^4.17.15"
 
 read-pkg-up@^1.0.1:
   version "1.0.1"
@@ -10551,7 +10551,7 @@ sass-graph@2.2.5:
   integrity sha512-VFWDAHOe6mRuT4mZRd4eKE+d8Uedrk6Xnh7Sh9b4NGufQLQjOrvf/MQoOdx+0s92L89FeyUUNfU597j/3uNpag==
   dependencies:
     glob "^7.0.0"
-    lodash "^4.0.0"
+    lodash "^4.17.15"
     scss-tokenizer "^0.2.3"
     yargs "^13.3.2"
 
@@ -11312,7 +11312,7 @@ table@^5.2.3:
   integrity sha512-wmEc8m4fjnob4gt5riFRtTu/6+4rSe12TpAELNSqHMfF3IqnA+CH37USM6/YR3qRZv7e56kAEAtd6nKZaxe0Ug==
   dependencies:
     ajv "^6.10.2"
-    lodash "^4.17.14"
+    lodash "^4.17.15"
     slice-ansi "^2.1.0"
     string-width "^3.0.0"
 
