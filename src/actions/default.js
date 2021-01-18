@@ -70,7 +70,7 @@ const Actions = (props) => {
               role="button"
             >
               {icons.Folder}
-              &nbsp;Add Subfolder
+              &nbsp;Añadir subcarpeta
             </a>
           </li>
         )
@@ -156,20 +156,7 @@ const Actions = (props) => {
     }
   } else {
     // Nothing selected: We're in the 'root' folder. Only allowed action is adding a folder.
-    if (canCreateFolder && !nameFilter) {
-      actions.push(
-        <li key="action-add-folder">
-          <a
-            onClick={onCreateFolder}
-            href="#"
-            role="button"
-          >
-            {icons.Folder}
-            &nbsp;Add Folder
-          </a>
-        </li>
-      )
-    }
+  
 
     if (actions.length) {
       actions = (<ul className="item-actions">{actions}</ul>)
